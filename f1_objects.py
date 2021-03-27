@@ -1,3 +1,9 @@
+import random
+from typing import List
+
+import numpy as np
+
+
 class Team:
     def __init__(self, drivers, constructor, captain="random"):
 
@@ -8,7 +14,7 @@ class Team:
             eligible_captains = [driver for driver in drivers if driver.price <= 20]
             self._captain = random.sample(eligible_captains, 1)[0]
         else:
-            self._catpain = captain
+            self._captain = captain
 
     @property
     def drivers(self):
