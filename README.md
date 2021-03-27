@@ -1,0 +1,1 @@
+This repository implements a monte-carlo portfolio optimisation method for selecting a team in the fantasy formula 1 game: [https://fantasy.formula1.com/](https://fantasy.formula1.com/)
