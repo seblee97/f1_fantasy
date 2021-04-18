@@ -4,20 +4,20 @@ from f1_objects import Driver
 hamilton = Driver(
     name=constants.HAMILTON,
     constructor=constants.MERCEDES,
-    price=33.5,
+    price=33.4,
     teammate=constants.BOTTAS,
 )
 bottas = Driver(
     name=constants.BOTTAS,
     constructor=constants.MERCEDES,
-    price=23.6,
+    price=23.5,
     teammate=constants.HAMILTON,
 )
 
 verstappen = Driver(
     name=constants.VERSTAPPEN,
     constructor=constants.RED_BULL,
-    price=24.8,
+    price=25.1,
     teammate=constants.PEREZ,
 )
 perez = Driver(
@@ -30,33 +30,33 @@ perez = Driver(
 norris = Driver(
     name=constants.NORRIS,
     constructor=constants.MCLAREN,
-    price=13.1,
+    price=13.4,
     teammate=constants.RICCIARDO,
 )
 ricciardo = Driver(
     name=constants.RICCIARDO,
     constructor=constants.MCLAREN,
-    price=16.8,
+    price=16.9,
     teammate=constants.NORRIS,
 )
 
 leclerc = Driver(
     name=constants.LECLERC,
     constructor=constants.FERRARI,
-    price=16.8,
+    price=17.3,
     teammate=constants.SAINZ,
 )
 sainz = Driver(
     name=constants.SAINZ,
     constructor=constants.FERRARI,
-    price=14.1,
+    price=14.3,
     teammate=constants.LECLERC,
 )
 
 tsunoda = Driver(
     name=constants.TSUNODA,
     constructor=constants.ALPHA_TAURI,
-    price=8.8,
+    price=9.3,
     teammate=constants.GASLY,
 )
 gasly = Driver(
@@ -69,33 +69,33 @@ gasly = Driver(
 stroll = Driver(
     name=constants.STROLL,
     constructor=constants.ASTON_MARTIN,
-    price=13.9,
+    price=13.7,
     teammate=constants.VETTEL,
 )
 vettel = Driver(
     name=constants.VETTEL,
     constructor=constants.ASTON_MARTIN,
-    price=16.2,
+    price=15.5,
     teammate=constants.STROLL,
 )
 
 ocon = Driver(
     name=constants.OCON,
     constructor=constants.ALPINE,
-    price=10.1,
+    price=9.7,
     teammate=constants.ALONSO,
 )
 alonso = Driver(
     name=constants.ALONSO,
     constructor=constants.ALPINE,
-    price=15.6,
+    price=15.2,
     teammate=constants.OCON,
 )
 
 raikkonen = Driver(
     name=constants.RAIKKONEN,
     constructor=constants.ALFA_ROMEO,
-    price=9.6,
+    price=9.5,
     teammate=constants.GIOVINAZZI,
 )
 giovinazzi = Driver(
@@ -114,7 +114,7 @@ schumacher = Driver(
 mazepin = Driver(
     name=constants.MAZEPIN,
     constructor=constants.HAAS,
-    price=5.5,
+    price=5.4,
     teammate=constants.SCHUMACHER,
 )
 
